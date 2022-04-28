@@ -46,3 +46,5 @@ const injectContext = PassedComponent => {
 };
 
 export default injectContext;
+
+// injectContext
