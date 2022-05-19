@@ -22,7 +22,7 @@ export const Characters = () => {
                                 <h5 className="card-title" style={{color: 'white'}}>{character.name}</h5>
                                 <p className="card-text" style={{color: 'white'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <button className="btn btn-primary"><Link style={{color: 'white'}} to={`character/${character.uid}`}><p>Learn more you can</p></Link></button>
-                                <button className="heart" variant="warning" onClick={() => actions.favoritesInfo(props.name)}>
+                                <button className="heart" variant="warning" onClick={() => actions.favoritesInfo(character.name)}>
 						            <i className="far fa-heart" />
 					            </button>
                             </div>

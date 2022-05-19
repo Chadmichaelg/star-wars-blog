@@ -80,6 +80,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 
 			favoritesInfo: item => {
+				console.log(item)
 				let myFavorites = getStore().favorites;
 				let selected = myFavorites.find(element => element === item);
 					if (selected) {
